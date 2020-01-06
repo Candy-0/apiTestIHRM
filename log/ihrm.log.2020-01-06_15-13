@@ -1,0 +1,8 @@
+2020-01-06 15:13:45,371 INFO [root] [login.py(test_login_success:31)] - 登录成功接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3513d508-f114-4953-a9a7-f78d53aa86c9'}
+2020-01-06 15:13:45,399 INFO [root] [login.py(test_login_success:37)] - 获取的令牌为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3513d508-f114-4953-a9a7-f78d53aa86c9'}
+2020-01-06 15:13:45,481 INFO [root] [test_emp.py(test01_add_emp:36)] - 添加员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214082601379516416'}}
+2020-01-06 15:13:45,481 INFO [root] [test_emp.py(test01_add_emp:43)] - 员工id为：1214082601379516416
+2020-01-06 15:13:45,554 INFO [root] [test_emp.py(test02_query_emp:53)] - 查询员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214082601379516416', 'mobile': '12345587934', 'username': '西施1', 'password': 'eb5708fb53e78dad103db244b65bcff9', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1210411411066695680', 'timeOfEntry': '2020-01-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-01-02T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试', 'roleIds': [], 'staffPhoto': None}}
+2020-01-06 15:13:45,631 INFO [root] [test_emp.py(test03_update_emp:65)] - 修改员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214082601379516416'}}
+2020-01-06 15:13:45,798 INFO [root] [test_emp.py(test03_update_emp:77)] - 数据库的结果为：王昭君09
+2020-01-06 15:13:45,878 INFO [root] [test_emp.py(test04_delete_emp:92)] - 删除员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
