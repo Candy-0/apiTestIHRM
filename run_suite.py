@@ -16,7 +16,7 @@ suite.addTest(unittest.makeSuite(TestIHRMEmp))
 # suite.addTest(unittest.makeSuite(TestIHRMLogin))
 
 # 3.使用HTMLTestRunner执行测试套件，生成测试报告
-report_path = BASE_DIR + "/report/ihrm.html")
+report_path = BASE_DIR + "/report/ihrm.html"
 with open(report_path, 'wb') as f:
     # 初始化HTMLTestRunner
     runner = HTMLTestRunner(f, verbosity=1, title="IHRM人力资源管理接口测试", description="v1.0.0")
