@@ -152,4 +152,4 @@ if __name__ == '__main__':
     read_add_emp_json()
     read_query_emp_json()
     read_update_emp_json()
-    read_delete_emp_json()
+
